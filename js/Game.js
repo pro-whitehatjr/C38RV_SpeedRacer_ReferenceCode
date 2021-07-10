@@ -69,13 +69,13 @@ class Game {
         }
       }
 
-      this.handlePlayerControl();
+      this.handlePlayerControls();
 
       drawSprites();
     }
   }
 
-  handlePlayerControl() {
+  handlePlayerControls() {
     // handling keyboard events
     if (keyIsDown(UP_ARROW)) {
       player.positionY += 10;
